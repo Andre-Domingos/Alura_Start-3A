@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
 :root{
-    --bg-color: #0000;
-    --primary-color: #083552;
-    --secundary-color: #35626d;
-    --font: "Gowun Batang", serif;
+    --bg-color:#365db3cb;
+    --primary-color:#070059;
+    --secudary-color:#64418a;
+    --font:"Edu AU VIC WA NT Guides", cursive;
 }
 
 body{
     background-color: var(--bg-color);
-    color: var(--primary-color);
+    color:var(--primary-color);
     font-family: var(--font);
     height: 100vh;
     margin: 0;
@@ -16,7 +16,7 @@ body{
 
 h1{
     font-size: 2rem;
-    color: var(--secundary-color);
+    color: var(--secudary-color);
     font-weight: 700;
 }
 
@@ -29,25 +29,14 @@ nav {
 nav a {
     text-decoration: none;
     color: var(--bg-color);
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--bg-color);
-     margin: 0rem 2rem 1rem 0rem;
+    margin: 0rem 2rem 1rem 0rem;
+    font-size: 1.2rem;
 }
 
 header {
     background-color: var(--primary-color);
     text-align: center;
     padding: 1px;
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--bg-color);
-     margin: 0 2rem 1rem 0rem;
-     font-size: 1.2rem;
 }
 
 nav a:hover {
